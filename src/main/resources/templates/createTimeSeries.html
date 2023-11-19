@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Time Series</title>
+  <link rel="stylesheet" href="/styles/create.css">
+<!--
+  <script type = "text/javascript" src="/js/createTimeSeries.js"></script>
+-->
+</head>
+<body>
+<form class="TimeSeries" action="/app/timeseries" method = "POST">
+  <fieldset>
+    <legend>TimeSeries</legend>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" placeholder="Add Name"><br>
+    <label for="description">Description</label><br>
+    <textarea id="description" placeholder="Add Description"></textarea><br>
+    <input type="submit" id="createButton" value="Create">
+  </fieldset>
+</form>
+</body>
+</html>
